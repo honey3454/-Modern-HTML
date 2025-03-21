@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML vs HTML5</title>
+</head>
+<body>
+
+  <h1>HTML vs HTML5</h1>
+  <p>Comparison between HTML and HTML5</p>
+
+  <table border="1">
+    <tr>
+      <th>HTML</th>
+      <th>HTML5</th>
+    </tr>
+    <tr>
+      <td>Requires plugins like Flash for multimedia content.</td>
+      <td>Supports native multimedia elements such as &lt;video&gt; and &lt;audio&gt;.</td>
+    </tr>
+    <tr>
+      <td>Does not have native support for local storage.</td>
+      <td>Introduces localStorage and sessionStorage for storing data in the browser.</td>
+    </tr>
+    <tr>
+      <td>Uses non-semantic tags like &lt;div&gt; and &lt;span&gt; for structuring content.</td>
+      <td>Introduces new semantic tags like &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, and &lt;section&gt;.</td>
+    </tr>
+  </table>
+
+</body>
+</html>
