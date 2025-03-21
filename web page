@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 Features</title>
+</head>
+<body>
+
+  <header>
+    <h1>HTML5 Features</h1>
+    <p>Explore some of the key features that make HTML5 a powerful and modern web standard.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. New Semantic Elements</h2>
+      <p>HTML5 introduces new semantic elements that help structure web pages in a more meaningful way. These elements make it easier for search engines and screen readers to understand the content of the page.</p>
+      <p><strong>Examples:</strong> &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, &lt;nav&gt;</p>
+    </section>
+
+    <section>
+      <h2>2. Audio and Video Support</h2>
+      <p>HTML5 provides native support for embedding audio and video content directly into a web page. The <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> tags eliminate the need for third-party plugins like Flash, making it easier to add multimedia content to a webpage.</p>
+      <p><strong>Example:</strong> The &lt;audio&gt; and &lt;video&gt; tags can be used to include multimedia on your web pages.</p>
+    </section>
+
+    <section>
+      <h2>3. Local Storage</h2>
+      <p>HTML5 introduced <strong>localStorage</strong> and <strong>sessionStorage</strong>, which allow web applications to store data on the user's browser. This means that users can access web apps offline and that data is saved between sessions.</p>
+      <p><strong>Example:</strong> Using JavaScript to store data in local storage:</p>
+      <pre><code>localStorage.setItem('username', 'JaneDoe');</code></pre>
+      <pre><code>var username = localStorage.getItem('username');</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Features. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
